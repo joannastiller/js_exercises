@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Click counter</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        html {
+            font-family: sans-serif;
+        }
+
+        p {
+            text-align: center;
+            line-height: 100vh;
+            font-size: 50px;
+            color: rgb(13, 107, 151);
+        }
+
+        button {
+            position: fixed;
+            top: 100px;
+            width: 200px;
+            background-color: rgb(13, 107, 151);
+            border-style: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 30px;
+            line-height: 60px;
+        }
+
+        .left {
+            left: 200px;
+        }
+
+        .right {
+            right: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <button class="left">Add</button>
+    <button class="right">Substract</button>
+    <p>Number of clicks: <span>0</span></p>
+    <script src="click_counter.js"></script>
+</body>
+
+</html>
