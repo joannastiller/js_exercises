@@ -1,0 +1,34 @@
+ * {
+            margin: 0;
+        }
+
+        html {
+            font-family: sans-serif;
+        }
+
+        p {
+            text-align: center;
+            line-height: 100vh;
+            font-size: 50px;
+            color: rgb(13, 107, 151);
+        }
+
+        button {
+            position: fixed;
+            top: 100px;
+            width: 200px;
+            background-color: rgb(13, 107, 151);
+            border-style: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 30px;
+            line-height: 60px;
+        }
+
+        .left {
+            left: 200px;
+        }
+
+        .right {
+            right: 200px;
+        }

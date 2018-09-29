@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 150vh;
+}
+
+.wrapper {
+    width: 80vw;
+    margin: 5vh auto;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 10vh;
+    right: 7vh;
+    width: 7vh;
+    height: 7vh;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 5vh;
+    transition-duration: .3s;
+}
+
+.fas {
+    line-height: 7vh;
+}
+
+nav {
+    position: fixed;
+    bottom: -16vh;
+    left: 0;
+    right: 0;
+    height: 20vh;
+    background-color: #000;
+    transition-duration: .3s;
+}
+
+.arrow.show {
+    bottom: 26vh;
+    transform: rotate(180deg);
+}
+
+nav.show {
+    bottom: 0;
+}
