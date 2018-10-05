@@ -1,0 +1,42 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .section1 {
+            background-color: rgb(171, 241, 243);
+            height: 70vh;
+        }
+
+        .section2 {
+            background-color: rgb(238, 191, 250);
+            height: 500px;
+
+        }
+
+        .section3 {
+            background-color: rgb(194, 191, 192);
+            height: 1290px;
+        }
+
+        .section4 {
+            background-color: rgb(128, 223, 240);
+            height: 150vh;
+        }
+
+        .info {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 70px;
+            width: 100%;
+            box-shadow: 0 0 3px 3px grey;
+            background-color: rgb(0, 0, 0);
+            font-size: 30px;
+            font-family: "Arial", sans-serif;
+            color: white;
+            line-height: 70px;
+            text-align: center;
+            text-transform: uppercase;
+        }
