@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Current time</title>
+
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+
+        }
+
+        div.clock {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 0 20px;
+            line-height: 100px;
+            text-align: center;
+            font-family: 'Arial';
+            font-size: 50px;
+            border: 2px solid rgb(13, 130, 207);
+            border-radius: 10px;
+        }
+
+        span {
+            font-weight: bold;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clock">Time: <span></span></div>
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>
