@@ -4,7 +4,7 @@ const taskNumber = document.querySelector('h1 span');
 const listItem = document.getElementsByClassName('task');
 const input = document.querySelector('input');
 
-const removeTask = e() => {
+const removeTask = (e) => {
     e.target.parentNode.remove();
     taskNumber.textContent = listItem.length;
 }
